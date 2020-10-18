@@ -3,7 +3,7 @@ composer.lock
 docs
 vendor
 coverage
-/.editorconfig
+.editorconfig
 /.scrutinizer.yml
 /.phpunit.result.cache
 /.styleci.yml
