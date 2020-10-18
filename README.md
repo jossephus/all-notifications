@@ -24,8 +24,6 @@ php artisan notifications:all // just that
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-<<<<<<< HEAD
-=======
 
 
 
