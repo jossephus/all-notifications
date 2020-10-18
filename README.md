@@ -1,11 +1,6 @@
 
 # all:notifications
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/jossephus/all-notifications.svg?style=flat-square)](https://packagist.org/packages/jossephus/all-notifications)
-[![Build Status](https://img.shields.io/travis/jossephus/all-notifications/master.svg?style=flat-square)](https://travis-ci.org/jossephus/all-notifications)
-[![Quality Score](https://img.shields.io/scrutinizer/g/jossephus/all-notifications.svg?style=flat-square)](https://scrutinizer-ci.com/g/jossephus/all-notifications)
-[![Total Downloads](https://img.shields.io/packagist/dt/jossephus/all-notifications.svg?style=flat-square)](https://packagist.org/packages/jossephus/all-notifications)
-
 A very simple command that lists all  notification classess that are created by the artisan command make:notification
 
 ## Installation
@@ -19,31 +14,19 @@ composer require jossephus/all-notifications
 ## Usage
 
 ``` php
-// Usage description here
+php artisan notifications:all // just that 
+
 ```
 
-### Testing
 
-``` bash
-composer test
-```
-
-### Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-### Security
 
-If you discover any security related issues, please email yosephtuemay64@gmail.com instead of using the issue tracker.
 
-## Credits
 
-- [Josseph](https://github.com/jossephus)
-- [All Contributors](../../contributors)
 
 ## License
 
