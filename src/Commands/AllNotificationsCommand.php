@@ -4,9 +4,10 @@ namespace Jossephus\AllNotifications\Commands;
 
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
 
-// use function PHPSTORM_META\map;
+use function PHPSTORM_META\map;
 
 class AllNotificationsCommand extends Command
 {
@@ -42,13 +43,15 @@ class AllNotificationsCommand extends Command
     public function handle()
     {
         $headers = [
-            'Notifications' ,
+            'Notifications',
         ];
 
-        $allFiles = collect(File::allFiles(app_path('Notifications/')))->map(function($file){
-            return [$file->getRelativePathName()];
-        });
-
-        return $this->table($headers , $allFiles->toArray() );
+        if (File::exists(app_path('Notifications/'))) {
+            $allFiles = collect(File::allFiles(app_path('Notifications/')))->map(function ($file) {
+                return [$file->getRelativePathName()];
+            });
+            return $this->table($headers, $allFiles->toArray());
+        }
+        return $this->info('No Notifications');
     }
 }

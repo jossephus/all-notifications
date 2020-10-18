@@ -1,4 +1,4 @@
-# Very short description of the package
+# Prints All Notification files created by the artisan command make:notifications
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jossephus/all-notifications.svg?style=flat-square)](https://packagist.org/packages/jossephus/all-notifications)
 [![Build Status](https://img.shields.io/travis/jossephus/all-notifications/master.svg?style=flat-square)](https://travis-ci.org/jossephus/all-notifications)
@@ -6,6 +6,8 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/jossephus/all-notifications.svg?style=flat-square)](https://packagist.org/packages/jossephus/all-notifications)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+
+Simple command that lists all your notification classess in the console 
 
 ## Installation
 
