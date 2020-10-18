@@ -1,0 +1,54 @@
+{
+    "name": "jossephus/all-notifications",
+    "description": "This artisan command lists all Notification in your Notification Folder",
+    "keywords": [
+        "jossephus",
+        "all-notifications"
+    ],
+    "homepage": "https://github.com/jossephus/all-notifications",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Josseph",
+            "email": "yosephtuemay64@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jossephus\\AllNotifications\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jossephus\\AllNotifications\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jossephus\\AllNotifications\\AllNotificationsServiceProvider"
+            ],
+            "aliases": {
+                "AllNotifications": "Jossephus\\AllNotifications\\AllNotificationsFacade"
+            }
+        }
+    }
+}
