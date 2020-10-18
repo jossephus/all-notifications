@@ -1,13 +1,12 @@
-# Prints All Notification files created by the artisan command make:notifications
+
+# all:notifications
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jossephus/all-notifications.svg?style=flat-square)](https://packagist.org/packages/jossephus/all-notifications)
 [![Build Status](https://img.shields.io/travis/jossephus/all-notifications/master.svg?style=flat-square)](https://travis-ci.org/jossephus/all-notifications)
 [![Quality Score](https://img.shields.io/scrutinizer/g/jossephus/all-notifications.svg?style=flat-square)](https://scrutinizer-ci.com/g/jossephus/all-notifications)
 [![Total Downloads](https://img.shields.io/packagist/dt/jossephus/all-notifications.svg?style=flat-square)](https://packagist.org/packages/jossephus/all-notifications)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
-
-Simple command that lists all your notification classess in the console 
+A very simple command that lists all  notification classess that are created by the artisan command make:notification
 
 ## Installation
 
