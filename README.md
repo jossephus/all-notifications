@@ -24,6 +24,12 @@ php artisan notifications:all // just that
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 0866b0de143b48a11ebe413a967f46a645c7e1d7
 
 ## License
 
